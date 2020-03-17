@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="../../base.css" />
+    <link rel="stylesheet" href="./toDoList.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="hidden">TO DO LIST APP</h1>
+      </header>
+      <div class="containerMain scroll"></div>
+      <div class="containerInput">
+        <div class="containerInputForm">
+          <input
+            type="date"
+            id="dateInput"
+            name="input-date"
+            max="2024-12-31"
+          />
+          <input
+            type="text"
+            name="input-text"
+            id="textInput"
+            placeholder="Please Input Your Text"
+          />
+        </div>
+        <div class="containerInputButton">
+          <button class="addCard">➕ PLUS</button>
+        </div>
+      </div>
+    </div>
+    <script src="./toDoList.js"></script>
+  </body>
+</html>

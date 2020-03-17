@@ -1,0 +1,119 @@
+html {
+  font-size: 8px;
+}
+
+.container {
+  width: 90%;
+  margin: 3em auto;
+  /* border: 2px solid magenta; */
+  background-color: #ff7c7c;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: 0 0 10px whitesmoke;
+}
+
+.container .containerMain {
+  /* border: 2px solid firebrick; */
+  margin-bottom: 1.5em;
+  padding: 0.4em;
+  overflow-y: auto;
+  height: 40vh;
+}
+
+.containerMain .card {
+  width: 100%;
+  border-radius: 7px;
+  padding: 0.5em;
+  background: rgba(33, 36, 61, 1);
+  margin: 0 0 0.7em;
+  word-wrap: break-word;
+  border: 2px solid white;
+}
+
+/* Typography */
+p {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 0;
+  font-weight: 700;
+  max-width: 100%;
+}
+
+h2 {
+  text-align: center;
+  max-width: 100%;
+}
+
+/* Container input */
+.container .containerInput {
+  /* border: 2px solid aquamarine; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.containerInputForm {
+  /* border: 2px solid yellow; */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 1em;
+}
+
+#dateInput,
+#textInput {
+  width: 95%;
+  background: rgba(33, 36, 61, 1);
+  border-radius: 12px;
+  margin-bottom: 0.3em;
+  box-shadow: 4px 7px 19px -10px rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+.containerInputButton {
+  /* border: 2px solid white; */
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addCard {
+  margin-right: 4.5em;
+}
+
+/* Container main */
+.containerCard {
+  /* border: 2px solid magenta; */
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 4px 7px 19px -10px rgba(0, 0, 0, 0.75);
+}
+
+/* HEADER */
+header h1 {
+  text-align: center;
+}
+
+/* .scroll {
+  overflow: scroll;
+} */
+.scroll::-webkit-scrollbar {
+  width: 2%;
+}
+
+.scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(33, 36, 61, 1);
+  border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 30px rgba(33, 36, 61, 1);
+  border-radius: 10px;
+}
+
+/* JS */
+.hidden {
+  display: none !important;
+}
